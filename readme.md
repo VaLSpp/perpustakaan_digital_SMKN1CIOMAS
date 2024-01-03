@@ -11,7 +11,7 @@
  Password: admin
 
  Tech Stack :
- -PHP
- -MySQL/MariaDB
- -Java Script
- -BootStrap
+ PHP, 
+ MySQL/MariaDB, 
+ Java Script,
+ BootStrap
