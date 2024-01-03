@@ -7,8 +7,8 @@
  Peminjaman Buku Baru
 
  User Login :
- -Username : admin 
- -Password: admin
+ Username : admin 
+ Password: admin
 
  Tech Stack :
  -PHP
