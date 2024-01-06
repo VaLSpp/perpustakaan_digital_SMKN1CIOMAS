@@ -5,7 +5,7 @@ $random_alpha = md5(rand());
 $captcha_code = substr($random_alpha, 0, 10);
 $_SESSION["captcha_code"] = $captcha_code;
 
-$target_layer = imagecreatetruecolor(100,3);
+$target_layer = imagecreatetruecolor(50,3);
 
 $captcha_background = imagecolorallocate($target_layer, rand(0,255), rand(0,255), rand(0,255));
 imagefill($target_layer,25,25,$captcha_background);
