@@ -1,9 +1,5 @@
 $(function () {
 
-
-  // =====================================
-  // Profit
-  // =====================================
   var chart = {
     series: [
       { name: "Earnings this month:", data: [355, 390, 300, 350, 390, 180, 355, 390] },
@@ -105,9 +101,6 @@ $(function () {
   chart.render();
 
 
-  // =====================================
-  // Breakup
-  // =====================================
   var breakup = {
     color: "#adb5bd",
     series: [38, 40, 25],
@@ -159,11 +152,6 @@ $(function () {
   var chart = new ApexCharts(document.querySelector("#breakup"), breakup);
   chart.render();
 
-
-
-  // =====================================
-  // Earning
-  // =====================================
   var earning = {
     chart: {
       id: "sparkline3",
