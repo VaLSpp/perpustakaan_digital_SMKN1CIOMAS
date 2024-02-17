@@ -12,6 +12,6 @@
 
  Tech Stack :
  PHP, 
- MySQL/MariaDB, 
+ MySQL, 
  Java Script,
  BootStrap
